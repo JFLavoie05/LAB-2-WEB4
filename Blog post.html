@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet"  media="screen and (max-width: 900px)" href="Style/styleMobile.css">
+    <title>Blog post</title>
+</head>
+<body>
+  <header class="container-fluid d-flex my-3">
+    <img src="images/legoyoda.jpg" alt="Logo" class="logo col-1">
+    <nav>
+        <ul class="nav menuNav">
+            <li class="nav-item col-3"><a class="nav-link" href="#">Menu1</a></li>
+            <li class="nav-item col-3"><a class="nav-link" href="#">Menu2</a></li>
+            <li class="nav-item col-3"><a class="nav-link" href="#">Menu3</a></li>
+            <li class="nav-item col-3"><a class="nav-link" href="#">Menu4</a></li>
+        </ul>
+        <nav class="navbar menuHamburger"> <!-- Masqué sur les grands écrans -->
+          <!-- Bouton du menu hamburger -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <!-- Contenu du menu -->
+          <div class="collapse navbar-collapse" id="mobileMenu">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="#">Menu1</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu2</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu3</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Menu4</a></li>
+            </ul>
+          </div>
+      </nav>
+    </nav>
+    <img src="images/logo utilisateur.png" alt="Utilisateur" class="user-icon col-1">
+</header>
+
+  <div class="bodyBlog container-fluid">
+    <img class="imageHaut" src="images/image card.png" width="100%" height="350px">
+    <h1 class="text-center">Titre du blog</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis pariatur quod quia necessitatibus facere eligendi, odio delectus ipsum sapiente harum voluptatum sunt nostrum assumenda voluptates quo, asperiores quibusdam nulla nihil!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quis impedit maiores accusamus maxime mollitia consequuntur error perspiciatis unde nam. Esse alias minus non ipsum architecto vel cum odio porro sed? Corrupti voluptatum numquam omnis hic ab dicta deleniti nesciunt, dolores ducimus laborum ipsa assumenda, iusto, earum dignissimos quidem beatae inventore impedit possimus unde quaerat repellendus veniam voluptas sint. Tempora quod fugit libero blanditiis consectetur. Id excepturi corrupti esse laudantium voluptatum dignissimos nobis voluptas quidem tenetur sint ea, non quasi vitae quis veniam ipsum illo perferendis aliquid dolore! Corrupti cum odio hic nostrum commodi, repudiandae saepe assumenda expedita rerum maxime nisi. Atque numquam ratione dicta quisquam asperiores, consequatur qui saepe, iste magni neque cum laudantium aut accusamus deserunt distinctio natus dolore similique iusto beatae fugiat voluptas blanditiis repellat. Similique voluptatem soluta omnis quisquam harum ullam iure voluptate sapiente inventore! Deleniti unde suscipit magni corrupti alias tenetur numquam officia voluptates quo.</p>
+    <div class="imageMillieu text-center">
+      <img src="images/image card.png" width="15%" height="130px">
+      <p>Caption</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quis impedit maiores accusamus maxime mollitia consequuntur error perspiciatis unde nam. Esse alias minus non ipsum architecto vel cum odio porro sed? Corrupti voluptatum numquam omnis hic ab dicta deleniti nesciunt, dolores ducimus laborum ipsa assumenda, iusto, earum dignissimos quidem beatae inventore impedit possimus unde quaerat repellendus veniam voluptas sint. Tempora quod fugit libero blanditiis consectetur. Id excepturi corrupti esse laudantium voluptatum dignissimos nobis voluptas quidem tenetur sint ea, non quasi vitae quis veniam ipsum illo perferendis aliquid dolore! Corrupti cum odio hic nostrum commodi, repudiandae saepe assumenda expedita rerum maxime nisi. Atque numquam ratione dicta quisquam asperiores, consequatur qui saepe, iste magni neque cum laudantium aut accusamus deserunt distinctio natus dolore similique iusto beatae fugiat voluptas blanditiis repellat. Similique voluptatem soluta omnis quisquam harum ullam iure voluptate sapiente inventore! Deleniti unde suscipit magni corrupti alias tenetur numquam officia voluptates quo.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quis impedit maiores accusamus maxime mollitia consequuntur error perspiciatis unde nam. Esse alias minus non ipsum architecto vel cum odio porro sed? Corrupti voluptatum numquam omnis hic ab dicta deleniti nesciunt, dolores ducimus laborum ipsa assumenda, iusto, earum dignissimos quidem beatae inventore impedit possimus unde quaerat repellendus veniam voluptas sint. Tempora quod fugit libero blanditiis consectetur. Id excepturi corrupti esse laudantium voluptatum dignissimos nobis voluptas quidem tenetur sint ea, non quasi vitae quis veniam ipsum illo perferendis aliquid dolore! Corrupti cum odio hic nostrum commodi, repudiandae saepe assumenda expedita rerum maxime nisi. Atque numquam ratione dicta quisquam asperiores, consequatur qui saepe, iste magni neque cum laudantium aut accusamus deserunt distinctio natus dolore similique iusto beatae fugiat voluptas blanditiis repellat. Similique voluptatem soluta omnis quisquam harum ullam iure voluptate sapiente inventore! Deleniti unde suscipit magni corrupti alias tenetur numquam officia voluptates quo.</p>
+
+    
+      
+      
+      <div class="commentaires mb-3">
+        <label for="textarea" class="form-label">Commentaires</label>
+        <textarea class="form-control" id="textarea" rows="6"></textarea>
+        <div class="d-flex justify-content-end">
+          <button class="btn btn-primary btn-lg" type="submit">Submit</button>
+        </div>
+        
+      </div>
+
+      <div class="messageCommentaire container">
+        <div class="premierCom row mb-3">
+            <div class="col-auto">
+                <img src="images/user icon.png" alt="Profil" class="profile-img">
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec vitae quam et eros vulputate fermentum.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor aut accusamus odit tenetur illo in nam, fuga itaque animi placeat pariatur dolores asperiores dolorum ipsum quia ea, ipsa dicta, velit facere dignissimos nisi? Ex quaerat, assumenda itaque doloremque et dicta, dolore vitae commodi ab aliquam fuga ipsum perferendis dignissimos totam?</p>
+                
+            </div>
+        </div>
+
+        
+        <div class="container-fluid">
+          <div class="deuxiemeCom row">
+            <div class="col-auto">
+              <img src="images/user icon.png" alt="Profil" class="profile-img">
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec vitae quam et eros vulputate fermentum.</p>
+                <p class="deuxiemeComP">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, nam ullam quia et aliquid recusandae sapiente omnis officia voluptatum eligendi. Minus ratione sequi aperiam corrupti molestiae est impedit pariatur adipisci unde similique corporis laudantium non, nisi nulla. Possimus temporibus error officiis esse, qui animi ex recusandae ea saepe reprehenderit modi placeat aut. Id ipsam, fugit harum quidem veritatis nulla, libero labore corporis, voluptas aperiam rem aliquam! In quidem inventore fugit culpa possimus repellat saepe nemo nobis. Voluptatum, fugit. Fugiat placeat aliquam soluta quasi et, cum error aspernatur tempora repudiandae voluptatibus? Veritatis, iure dolorum maiores exercitationem tempore qui aliquid omnis saepe.</p>
+
+          </div>
+        </div>
+      </div>
+  </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+<footer class="footerBlog row">
+    <div class="d-flex justify-content-center gap-5">
+      <a href="#"><img src="images/facebook.png" width="30"></a>
+      <a href="#"><img src="images/twiiter.png" width="30"></a>
+      <a href="#"><img src="images/linkedin.png" width="30"></a>
+    </div>
+    <p class="entreprise col col-12 ">Centre d'Expertise et de Perfectionnement en Informatique</p>
+    <p class="année col col-12 ">2022</p>
+</footer>
+</html>
