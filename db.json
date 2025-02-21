@@ -1,0 +1,53 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "titre": "Blog 1",
+      "auteur": "Remy Nadeau",
+      "contenu": "lorem ipsum",
+      "date": "2024-02-03"
+    },
+    {
+      "id": 2,
+      "titre": "Blog 2",
+      "auteur": "Emma LongBart",
+      "contenu": "lorem ipsum",
+      "date": "2025-03-04"
+    },
+    {
+      "id": 3,
+      "titre": "Blog 3",
+      "auteur": "Arcann Garcia",
+      "contenu": "lorem ipsum",
+      "date": "2025-06-10"
+    },
+    {
+      "id": 4,
+      "titre": "Blog 4",
+      "auteur": "Thexan Doe",
+      "contenu": "lorem ipsum",
+      "date": "2023-02-01"
+    },
+    {
+      "id": 5,
+      "titre": "Blog 5",
+      "auteur": "Patrick Bobin",
+      "contenu": "lorem ipsum",
+      "date": "2025-06-02"
+    },
+    {
+      "id": "680d",
+      "titre": "Blog 6",
+      "contenu": "Bonjour",
+      "auteur": "Jean-Félix",
+      "date": "2025-02-21T18:58:34.277Z"
+    },
+    {
+      "id": "f7fd",
+      "titre": "Blog 7",
+      "contenu": "Bonjour 2",
+      "auteur": "Williams",
+      "date": "2025-02-21T19:53:26.690Z"
+    }
+  ]
+}
