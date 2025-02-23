@@ -1,4 +1,5 @@
 function btn_submit(e) {
+  
     e.preventDefault();
     $( "#dialog-confirm" ).dialog({
         resizable: false,
@@ -35,9 +36,7 @@ function ConfirmerEnvoie() {
     .then(response => response.json())
     .then(json => console.log(json))
     .catch(error => console.log(error))
-
     alert("Ajout confirmer");
-    $("#fadein").fadeOut(2000);
     window.location.href = "Page Principale.html";
 }
 
